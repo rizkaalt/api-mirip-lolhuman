@@ -1,7 +1,7 @@
 {
-  "name": "Alphabot-api",
+  "name": "Neko-Yuri",
   "version": "1.0.0",
-  "description": "res api website",
+  "description": "Website Res Api",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
