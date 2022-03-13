@@ -59,6 +59,9 @@ router.get('/docs/photooxy', (req, res) => {
 router.get('/docs/search', (req, res) => {
 	res.sendFile(__path + '/api/search.html')
 })
+router.get('/login', (req, res) => {
+	res.sendFile(__path + '/docs/login.html')
+})
 
 router.get('/config', (req, res) => {
     config = {
